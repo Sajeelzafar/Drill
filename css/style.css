@@ -15,15 +15,16 @@ body {
 }
 
 #nav-bar {
-  display: flex;
   position: fixed;
   top: 0;
-  margin-left: 1500px;
+  margin-left: 1000px;
 }
 
-.nav-link li a {
+.nav-link {
   text-decoration: none;
+  margin-right: 30px;
 }
+
 
 /* @media only screen and (max-width: 768px) {
   body {
