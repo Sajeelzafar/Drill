@@ -1,20 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   position: relative;
+  padding-top: 300px;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 300px;
 }
 
 #nav-bar {
+  display: flex;
   position: fixed;
   top: 0;
+  margin-left: 1500px;
 }
 
-/* @media only screen and (max-width: 600px) {
+.nav-link li a {
+  text-decoration: none;
+}
+
+/* @media only screen and (max-width: 768px) {
   body {
     background-color: red;
   }
 } */
-
-@media only screen and (min-width: 768px) {
-  body {
-    background-color: red;
-  }
-}

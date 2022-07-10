@@ -17,25 +17,22 @@
         id="header-img"
       />
       <nav id="nav-bar">
-        <ul class="nav-link">
-          <li id="first"><a href="#first">First</a></li>
-          <li id="second"><a href="#second">Second</a></li>
-          <li id="third"><a href="#third">Third</a></li>
-        </ul>
+        <a href="#para" class="nav-link">Home</a>
+        <a href="#video" class="nav-link">Video</a>
+        <a href="#form" class="nav-link">form</a>
       </nav>
-
-      <div>
-        <video id="video" width="320" height="240" controls>
-          <source src="http://techslides.com/demos/sample-videos/small.ogv"
-          type=video/ogg>
-        </video>
-      </div>
-
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input type="email" id="email" placeholder="Enter email here" />
-        <button type="submit" id="submit">Submit</button>
-      </form>
     </header>
+
+    <p id="para">This is the first paragraph</p>
+    <video id="video" width="320" height="240" controls>
+      <source src="http://techslides.com/demos/sample-videos/small.ogv"
+      type=video/ogg>
+    </video>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input type="email" id="email" placeholder="Enter email here" name="email" />
+      <input type="submit" id="submit" value="Submit" onclick="action" />
+    </form>
 
     <script src="js/index.js"></script>
   </body>
